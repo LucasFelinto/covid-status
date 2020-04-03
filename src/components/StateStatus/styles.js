@@ -1,33 +1,20 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: #4f4f4f;
-  border-radius: 2rem;
-  width: 110%;
-  height: 100%;
-  position: relative;
-
-  h2 {
-    font-size: 7.2rem;
-    padding: 1.6rem 0 0 3.5rem;
-  }
-`;
-
-export const StatusBoxContaier = styled.div`
+  color: #383838;
   display: flex;
-  flex-direction: row;
-  margin-left: 3.5rem;
-  margin-top: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
 
-  & div:not(:first-child) {
-    margin-left: 2rem;
+  h1 {
+    font-size: 1.8rem;
+    font-weight: normal;
   }
-`;
 
-export const DateTime = styled.div`
-  position: absolute;
-  right: 2rem;
-  bottom: 2rem;
+  span {
+    font-size: 2.5rem;
+  }
 
-  font-size: 2rem;
+  @media (max-width: 812px) {
+  }
 `;

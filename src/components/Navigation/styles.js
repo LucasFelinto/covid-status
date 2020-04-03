@@ -31,6 +31,7 @@ export const Container = styled.nav`
 `;
 
 export const UfList = styled.ul`
+  height: 300px;
   margin-left: 1.6rem;
 
   li {
@@ -47,6 +48,10 @@ export const UfList = styled.ul`
 
   height: 50%;
   overflow-y: scroll;
+
+  @media (max-width: 812px) {
+    margin-left: 0;
+  }
 `;
 
 export const Creator = styled.div`
